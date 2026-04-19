@@ -39,15 +39,19 @@ def main() -> int:
   <meta charset="utf-8" />
   <title>Inanc Kara Rapor</title>
   <style>
+    @page {{
+      size: A4;
+      margin: 14mm;
+    }}
     body {{
       font-family: "Segoe UI", Arial, sans-serif;
       line-height: 1.5;
       color: #111;
-      max-width: 920px;
-      margin: 32px auto;
-      padding: 0 20px;
+      margin: 0;
+      padding: 0;
     }}
     h1, h2, h3 {{ color: #222; }}
+    h3 {{ break-after: avoid-page; }}
     pre code {{
       display: block;
       background: #f4f4f4;
@@ -59,6 +63,18 @@ def main() -> int:
       background: #f4f4f4;
       border-radius: 4px;
       padding: 2px 5px;
+    }}
+    img {{
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 10px 0 14px;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }}
+    p, ul, ol, pre, table {{
+      break-inside: avoid;
     }}
     ul, ol {{ margin-top: 6px; }}
     hr {{ margin: 24px 0; }}
