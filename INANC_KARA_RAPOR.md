@@ -8,7 +8,7 @@
 - **Hazırlayan:** İnanç Kara
 - **Öğrenci No:** 243302011
 - **Teslim Tarihi:** 19.04.2026
-- **GitHub Linki:** [repo linkini buraya ekle]
+- **GitHub Linki:** https://github.com/inaanckr61-design/trabzon-sehir-rehberi
 
 ---
 
@@ -246,12 +246,3 @@ Detay ekranında seçilen mekana ait bilgi, görseller ve yol tarifi butonu gös
 Bu ödevde istenen teknik gereksinimleri karşılayan ve kullanım açısından düzenli bir şehir rehberi uygulaması geliştirdim. Uygulamanın temel akışını (ana sayfa -> liste -> detay) stabil şekilde kurdum ve görsel açıdan da okunabilir, sade ama dikkat çekici bir arayüz oluşturdum.
 
 ---
-
-## 9) Teslim Öncesi Kontrol Listesi
-
-- [ ] GitHub linki eklendi
-- [x] Öğrenci no eklendi
-- [x] Ekran görüntüleri eklendi
-- [ ] Rapor PDF’e çevrildi
-- [ ] Dosya adı `inanc_kara.pdf` yapıldı
-- [ ] DBS yüklemeye hazır
